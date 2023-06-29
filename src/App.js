@@ -47,6 +47,15 @@ const App = () => {
           max="20"
           value={length}
           onChange={(e) => setLength(e.target.value)}
+          style={{
+            width: "100%",
+            height: "10px",
+            background: "linear-gradient(to right, white, #145353)",
+            outline: "none",
+            borderRadius: "5px",
+            appearance: "none",
+            WebkitAppearance: "none",
+          }}
         />
       </div>
 
